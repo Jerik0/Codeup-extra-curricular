@@ -17,4 +17,6 @@ Being a developer of any kind requires us to solve for problems that we may or m
 
 It can be overwhelming if we fail to realize those things, and can lead to what I like to call the 'Defeatist' attitude. It makes us ineffective not only as developers but producers in general when we are beating ourselves up because 'I should have known that' or 'I'll never get this to work', or 'I have no idea what I'm doing'.
 
-It's very important to take any problem that you come into contact with, one bite at a time, and really take the time to think about the problem, it will be easier to solve. If you still do not know how to solve it, you're in luck! We happen to live in the golden age of what I like to call 'the Interwebs'. A magical place where all of your questions can be answered. We live in the information age, and if we take the time to understand what we need or what we are trying to ask, finding the solution is much easier.
+It's very important to take any problem that you come into contact with, one bite at a time, and really take the time to think about the problem, it will be easier to solve. 
+
+If you still do not know how to solve it, you're in luck! We happen to live in the golden age of what I like to call 'the Interwebs' - A magical place where all of your questions can be answered. We live in the information age, and if we take the time to understand what we need or what we are trying to ask, finding the solution is much easier.
