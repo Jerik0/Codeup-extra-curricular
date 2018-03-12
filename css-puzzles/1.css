@@ -1,0 +1,56 @@
+/*Type the proper way to make all element borders in the html and body be included in the calculation of the box size.*/
+
+/*TODO Write your answer(s) under this line.======================*/
+
+
+
+
+/*Answer these 3 questions in plain english:
+1. Will this element stay in the 'flow' of the page, as in, will other elements still push up against it?
+
+2. If this element's parent was to change position, would this element change position with it?
+
+3. Where would you expect to see this element on the page and why?
+*/
+#item {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*TODO Write your answer(s) under this line.======================*/
+
+
+
+
+/*What does the CSS code on the line below do to its element? How does it affect the other elements around it?*/
+#item {
+  float: left;
+}
+/*TODO Write your answer(s) under this line.======================*/
+
+
+
+
+/*What does the CSS code on the line below do to its element? How does it affect the other elements around it?*/
+#item {
+  clear: both;
+}
+/*TODO Write your answer(s) under this line.======================*/
+
+
+
+
+/*Fill in the appropriate property to make divs only take up the space of their content.*/
+div {
+
+}
+
+/*Suppose in the HTML for this page, #parent is the parent of its child, #child. How high will the child element be?*/
+#parent {
+
+}
+
+#child {
+  height: 100%;
+}
+/*TODO Write your answer(s) under this line.======================*/
