@@ -1,4 +1,4 @@
-#How To Think
+# How To Think
 
 Whether you're in Codeup, or you already have that fancy new developer job that you are after, there is a skill that you need to develop along with learning syntax for a given language. That skill is meta-cognition. Meta-cognition is *thinking about how you are thinking.* 
 
@@ -6,7 +6,7 @@ Instead of typing things on a screen and seeing if they are working or not, why 
 
 This will help you to not only realize that you might very well know the answer if you just take your time, but it will also help you to realize the things you really *don't* know, so you can then ask for help from an instructor or GOG (good ol' google).
 
-##The Defeatist Attitude
+## The Defeatist Attitude
 Being a developer of any kind requires us to solve for problems that we may or may not have created, on a regular basis. So naturally, we as developers need to realize a few things.
 
 * We do not, and never will, know everything.

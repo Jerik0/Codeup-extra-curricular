@@ -1,0 +1,33 @@
+/*TODO Inside of the curly braces for each of these, explain what each selector will select.*/
+
+.container.box {
+
+}
+
+.box {
+
+}
+
+.container {
+
+}
+
+#box {
+
+}
+
+#container {
+
+}
+
+#container > .box {
+
+}
+
+#container .box {
+
+}
+
+#container, .box {
+
+}
