@@ -1,5 +1,5 @@
 # Git Gud
-### A Starter Guide For Git
+## A Starter Guide For Git
 In order to use git effectively, we have to understand it. It's actually not that difficult, it's just an unfamiliar concept so it is important that it is explained simply and thoroughly.
 
 In layman's terms, git simply lets us get our code from our machine to the internet inside of a big code box.
@@ -34,7 +34,7 @@ At this point, what we have done is told *only this specific project's directory
 
 __________________________________________
 
-# How To Push and Pull Code Using Our Remote Repo
+## How To Push and Pull Code Using Our Remote Repo
 So our local project repo can talk to the remote repo, but how in the world do we make it do the thing??
 
 In order to send code to the remote (online) repo, we need to tell git *exactly what files/images/etc we want to save, or 'commit'.* So we need to ```git add FILE_NAME``` or if we want to add *all* of the files we've created to be saved, we type ```git add .``` ***note: the '.' on the end adds everything that has been created and/or edited since the last push***
@@ -63,7 +63,7 @@ Every time that we want to push to that remote in this specific project, after t
 ============
 
 **Step 2** Now that we've seen which files need to be added for commit, ```git add FILENAME``` or ```git add .```
-* This should add the files you specify to be committed
+* This should add the files you specify to be committed (known as _'staging'_).
 
 ============
 
@@ -79,3 +79,30 @@ Every time that we want to push to that remote in this specific project, after t
 
 ***CONGRATS! You now know how to push your code into a github repo!***
 
+## Working With Other Peoples' Code
+
+So now we know how to create a new repo and push our code to it. *Fantastic!* But what if we want to access code other people have written? 
+
+There are a couple of different times that we'll access other peoples' code. 
+* When they're working on a project with you in the same repo
+* When they have written their own repo that you want to clone
+
+*When will I need to clone a repo?*
+
+You'll need to clone a repo when:
+ 
+a) you're going to take part in developing that repo and will be pushing to the same remote as the other person(s) or
+ 
+b) you want to have the code on your machine, for any purpose
+
+*How do I clone a repo?*
+
+From the terminal, at the root directory which you want the project to be inside of:
+
+```git clone REPO_SSH_OR_HTTPS_KEY_HERE```
+
+This will create an exact clone of the cloned repo, inside of the directory that you specified.
+
+At this point, you have the code from the specific repo on your machine, but your machine doesn't know which github repo to push to.
+
+In order to tell it this, remember the ```git remote add origin REMOTE_SSH_KEY_HERE``` command
