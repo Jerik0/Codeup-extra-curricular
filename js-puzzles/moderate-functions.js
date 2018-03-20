@@ -4,7 +4,9 @@
 
 //TODO write a function called spaceString that takes in a string and returns a spaced version of the string
 //TODO e.g. putting in 'string' would return 's t r i n g'
+  const spaceString = (str) => {
 
+  };
 
 //TODO write a function called isPalindrome that takes in a string and returns a boolean whether or not that string is a palindrome
 

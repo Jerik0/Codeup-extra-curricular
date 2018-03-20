@@ -23,9 +23,9 @@ Literally anything that you guys need this to be is what it will be.
 At the end of every session, I'll give out a small survey, asking everyone some questions regarding different things. Generally pertaining to how we can improve your experience in this section of the class.
 
 ## About Me
-So I know you guys don't know me very well, but just for a second here, I want to let you know where I'm coming from so I can establish some credibility with you guys.
+So I know you guys don't know me very well, so just for a second here, I want to let you know where I'm coming from so I can establish some credibility with you guys.
 
-I went to Codeup last year about this time, and came in knowing nothing. I didn't even find out that I would be able to be in the starting class until the friday before, so I had to do all the pre-work before I came in that next Monday.
+I went to Codeup last year about this time, and came in knowing nothing. I didn't find out that I would be able to be in the starting class until the friday before, so I had to do all the pre-work before I came in that next Monday.
 
 While I was in class, I was pulled in so many directions, I didn't ask all the questions I could, and a lot of the time I didn't even know what I didn't know. I didn't even know what questions to ask when they said 'any questions?'.
 
@@ -33,7 +33,7 @@ I struggled through every section just to wrap my head around concepts as we wen
 
 The point is, I understand where you're sitting, and I've seen a lot of students that feel like I felt. So I am using that unique viewpoint to improve your time here if possible.
 
-The number one thing that I want is for you all to learn, regardless of the level you came in at. Like a good friend of mine said, I want to help the ones that have difficulty, and challenge the ones that excel. 
+The number one thing that I want is for all of you to learn, regardless of the level you came in at. Like a good friend of mine said, I want to help those of you that have difficulty, and challenge the ones that excel. 
 
 I'm also here to take some questions you guys may have about the curriculum, the pace, etc. 
 
