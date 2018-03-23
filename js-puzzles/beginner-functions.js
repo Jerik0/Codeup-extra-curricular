@@ -8,7 +8,7 @@
 
 //What is the function body?
 
-//Take this following function for example. Is 'str' usable by other functions? Why or why not?
+//Consider this following function. Is 'str' usable by other functions? Why or why not?
 function myFunction(str, str2) {
 
 }

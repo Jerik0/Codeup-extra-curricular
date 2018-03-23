@@ -57,12 +57,25 @@
   };
 
 //===========================================================
-//TODO write a function called fibonacci that takes two numbers, and produces a fibonacci sequence of 15 numbers.
+//TODO write a function called fib that takes one number, and produces the fibonacci sum at that position in the fibonacci sequence. e.g. fib(8) ===> 13
 
-  const fibonacci = (a, b) => {
-    let c = a + b;
+  const fib = (num) => {
+    if (num < 1) {
+      return 1;
+    }
+    return fib(num - 1) + fib(num - 2);
+  };
 
-    fibonacci(b, c);
+  for(let i = 0; i < 15; i++) {
+    console.log(fib(i));
+  }
+
+//===========================================================
+//TODO write a function called power that takes in two numbers, one is the base and the other is the power. It will return the result of the number at the specified power. e.g. power(2,4) ===> 16
+  const power = (number, exponent) => {
+    if (exponent === 0) return 1;
+    if (exponent === 1) return number;
+    return number * power(number, exponent - 1);
   };
 
 //===========================================================
