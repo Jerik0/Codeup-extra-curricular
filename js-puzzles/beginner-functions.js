@@ -30,6 +30,8 @@ function someOtherFunction(string) {
 //TODO - QUESTIONS ABOUT THIS CODE:
 //Can someFunction() use the variable called string?
 
+//IS someFunction() using the variable called string?
+
 //Can someOtherFunction() use the variable interiorString?
 
 //Can someOtherFunction() use the variable called string?
@@ -39,11 +41,11 @@ function someOtherFunction(string) {
 //What would happen if we console.logged someFunction()?
 //================================================
 
-//TODO create a function called isBoolean that will take in a parameter and return whether or not the parameter is a boolean
+//TODO create a function called isBoolean that will take in a parameter and return a boolean telling whether or not the parameter itself is a boolean
 // function isBoolean(userEntry) {
 //
 // }
 
+// What is the purpose of 'calling' functions?
 
-
-//TODO create a function called isEven that will take in a parameter and return whether or not the parameter is an even number or not.
+// How do we call functions; What specifically is it that calls it?
