@@ -32,16 +32,11 @@
 //TODO write a function called isPalindrome that takes in a string and returns a boolean whether or not that string is a palindrome
 
   const isPalindrome = (str) => {
-    let halfOne;
-    let halfTwo;
     if(isEven(str.length)) {
-      halfOne = str.substring(0, str.length/2);
-      halfTwo = reverse(str.substring(str.length/2));
+      return str.substring(0, str.length/2).toLowerCase() === reverse(str.substring(str.length/2)).toLowerCase();
     } else {
-      halfOne = str.substring(0, (str.length/2));
-      halfTwo = reverse(str.substring((str.length/2) + 1));
+      return str.substring(0, str.length/2).toLowerCase() === reverse(str.substring((str.length/2) + 1)).toLowerCase();
     }
-    return halfOne.toLowerCase() === halfTwo.toLowerCase();
   };
 
 //===========================================================
@@ -56,35 +51,37 @@
 
   const isHex = (str) => {
     if((str.charAt(0) === '#') && (str.length === 7 || str.length === 4)) {
-      return ((str.match(/[a-f]/i) || str.match(/[0-9]/)) && !str.match(/[g-z]/));
+      return ((str.match(/[a-f]/i) || str.match(/[0-9]/)) && !str.match(/[g-z]/i));
     }
     else return false;
   };
 
 //===========================================================
-//TODO create a function called makePlural that will take in a string as a parameter and will make it plural if it is not already plural
-  const makePlural = (str) => {
-    switch(str) {
-      case 'goose': {
-        return 'geese';
-      }
-      case 'moose': {
-        return 'moose';
-      }
-      case 'child': {
-        return 'children';
-      }
-      case 'deer': {
-        return 'deer';
-      }
-      case (str.charAt(str.length-1) === 's'): {
-        return (str + 'es');
-      }
-      default: {
-        return (str + 's');
+//TODO write a function called fibonacci that takes two numbers, and produces a fibonacci sequence of 15 numbers.
+
+  const fibonacci = (a, b) => {
+    let c = a + b;
+
+    fibonacci(b, c);
+  };
+
+//===========================================================
+//TODO write a function called pyramid that creates a pyramid of numbers from 1 to 10.
+
+  const pyramid = () => {
+    for(let i = 0; i < 10; i++) {
+      for(let j = 0; j < i; j++) {
+        console.log(i);
       }
     }
   };
 
 //===========================================================
+//TODO write a function called isValidPass that will take in a password and return whether or not it is a valid password. It must be at least 8 characters, contain a special character(!@#$%^&*), at least one capital letter, and at least one number.
+
+  const isValidPass = (str) => {
+    if(str.length > 7 && str.match(/[A-Z]/)) {
+      return str.match(/[a-z]/gi) !== null && str.match(/[0-9]/) !== null && str.match(/[!@#$%^&*()-_]/) !== null;
+    } else return false;
+  };
 })();
