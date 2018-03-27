@@ -20,7 +20,7 @@
 //TODO refactor the function to take in a string and *two* indices, the first one representing the starting point and the second representing the end point (that will not be included in the result). If two indices are given, it returns the string between the indices. If only one index is given, it returns the string from the beginning to that index.
 
   const cutString = (str, i, j) => {
-    return j ? str.substring(i,j) : str.substring(0, i);
+    return j ? str.substring(i, j) : str.substring(0, i);
   };
 
 //===========================================================

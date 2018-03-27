@@ -1,7 +1,5 @@
 "use strict";
 
-var names = ['bob', 'george', 'harry', 'jonathan', 'emily'];
-
 //TODO write a function that will console log each name using a for loop.
 
 //TODO write the same function refactored to use a forEach loop.

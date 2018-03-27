@@ -27,7 +27,7 @@ function isPositive(input) {
 }
 
 function increment(input) {
-  return isNumeric(input) ? input + 1 : false;
+  return isNumeric(input) ? input+=1 : false;
 }
 
 function square(input) {

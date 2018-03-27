@@ -66,9 +66,9 @@
     return fib(num - 1) + fib(num - 2);
   };
 
-  for(let i = 0; i < 15; i++) {
-    console.log(fib(i));
-  }
+  // for(let i = 0; i < 15; i++) {
+  //   console.log(fib(i));
+  // }
 
 //===========================================================
 //TODO write a function called power that takes in two numbers, one is the base and the other is the power. It will return the result of the number at the specified power. e.g. power(2,4) ===> 16
