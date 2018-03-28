@@ -42,13 +42,13 @@ let cars = [
 ];
 
 //How would we print '2017 Toyota Titan' to the console, if the console log is outside of the object?
-for(var i = 0; i < cars.length; i++) {
-  console.log(cars[i].make.year[0] + " " + cars[i].make.name + " " + cars[i].model.name);
-}
+// for(var i = 0; i < cars.length; i++) {
+//   console.log(cars[i].make.year[0] + " " + cars[i].make.name + " " + cars[i].model.name);
+// }
 
-cars.forEach(function(el, index) {
-  console.log(el.make.year[0] + " " + el.make.name + " " + el.model.name);
-});
+// cars.forEach(function(el, index) {
+//   console.log(el.make.year[0] + " " + el.make.name + " " + el.model.name);
+// });
 
 //How would we print the same thing to the console, if the console log is *inside* of the object?
 
@@ -72,7 +72,7 @@ function createCar(make, model, color) {
 createCar('Subaru', 'Outback', 'White');
 createCar('Nissan', '350z', 'Blue');
 
-console.log(cars);
+// console.log(cars);
 
 var circle = {
   radius: 3,
@@ -88,10 +88,10 @@ var circle = {
 };
 
 //What would this output be? Why?
-console.log(circle);
+// console.log(circle);
 
 //What about this output?
-console.log(circle.getCircumference());
+// console.log(circle.getCircumference());
 
 //Could we write the area of the circle like this? Why or why not?
 var circle2 = {
@@ -100,7 +100,7 @@ var circle2 = {
 };
 
 //What would this output be? Why?
-console.log(circle2.area);
+// console.log(circle2.area);
 
 //How would we log the area of the circle to the console?
 
