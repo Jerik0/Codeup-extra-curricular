@@ -8,3 +8,4 @@
 
 //What are the parts that go inside of a for-loop's conditional?
 
+//Suppose we have the following code:

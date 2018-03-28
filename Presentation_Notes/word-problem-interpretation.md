@@ -7,7 +7,7 @@ If this happens to you, worry not! It at least happened to me, and most likely l
 
 If there are any 'main' skills in programming, I would say that 'code-interpretation' -or translating a problem from words to actual code- is one of them.
 
-Unfortunately a lot of recognition of patterns used in programming just comes down to raw experience. I'm sure you've heard experienced programmers say 'Well just start coding!'... Great, thanks for the support, dude. But honestly it kind of is just like that in a manner of speaking. You just need to start. 
+Unfortunately a lot of recognition of patterns used in programming just comes down to raw experience. I'm sure you've heard experienced programmers say 'Well just start coding!'... Great, thanks for the support, dude. But honestly it is kind of like that in a manner of speaking. You just need to start. 
 
 Luckily, practice makes perfect. Or near perfect. However, its hard to build a house if you've never seen one, or if you don't know what a hammer is or how to use it. So the first steps would be learning:
 
@@ -47,6 +47,7 @@ Here's how I would break that problem down:
 * What is a function? How do I make one?
 * What is a string? 
 * How does a function 'take in' a string??
+* What is actually capitalizing a string?
 * How in the world to I capitalize a string? (maybe I should look through the curriculum or google it...)
 * How do we get output from this function?
 * How do I capitalize only one part of the string? Maybe I have to isolate that letter...

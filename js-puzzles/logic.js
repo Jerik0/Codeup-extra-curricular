@@ -22,4 +22,8 @@
 *
 * (10 >= 10)
 *
+* (10 > 10)
+*
 * */
+
+//The basics of logic is this: if(somethingThatEvaluatesToTrue) {do this thing} else {do this}
