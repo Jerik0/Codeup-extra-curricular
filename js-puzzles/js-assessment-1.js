@@ -88,4 +88,4 @@ let padArray = (arr, len, char) => {
 
 // let padArray = (a, l, c) => a.concat(new Array(a.length < l ? l - a.length : 0).fill(c));
 
-console.log(padArray(testArray, 8, 'a'));
+// console.log(padArray(testArray, 8, 'a'));
